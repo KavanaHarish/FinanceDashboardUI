@@ -1,6 +1,6 @@
 # FinanceFlow — Personal Finance Dashboard
 
-A clean, dark-luxury finance dashboard built with React + Vite. Designed as a screening assignment for a frontend internship role — showcasing UI design, component architecture, state management, and role-based access control.
+A clean, dark-luxury finance dashboard built with React + Vite. Designed as a screening assignment for a frontend internship role showcasing UI design, component architecture, state management, and role-based access control.
 
 ![FinanceFlow Dashboard](https://placehold.co/1200x600/080C10/D4A843?text=FinanceFlow+Dashboard)
 
@@ -142,7 +142,7 @@ Switch roles using the toggle in the bottom of the sidebar. No backend — roles
 1. All amounts are in USD
 2. "Income" is a category that automatically sets type to income
 3. The seed data represents a 3-month period (Apr–Jun 2024)
-4. Role switching is a demo feature — no auth backend needed
+4. Role switching is a demo feature no auth backend needed
 
 ---
 

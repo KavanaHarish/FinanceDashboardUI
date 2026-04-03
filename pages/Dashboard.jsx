@@ -76,7 +76,7 @@ function DonutChart({ data }) {
   const slices = data.map(d => {
     const sweep = (d.value / total) * 2 * Math.PI;
     const startAngle = angle;
-    angle += sweep;
+    angle += sweep; 
     const endAngle = angle;
     const x1 = cx + r * Math.cos(startAngle);
     const y1 = cy + r * Math.sin(startAngle);
