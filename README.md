@@ -59,8 +59,8 @@ A clean, dark-luxury finance dashboard built with React + Vite. Designed as a sc
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/financeflow.git
-cd financeflow
+git clone https://github.com/KavanaHarish/FinanceDashboardUI.git
+cd FinanceDashboardUI
 
 # 2. Install dependencies
 npm install
@@ -84,16 +84,16 @@ npm run preview
 ```
 src/
 ├── context/
-│   └── AppContext.jsx      # Central state: transactions, role, filters
+│   └── AppContext.jsx      
 ├── components/
-│   └── Sidebar.jsx         # Navigation + role switcher
+│   └── Sidebar.jsx         
 ├── pages/
-│   ├── Dashboard.jsx       # Overview with charts & recent tx
-│   ├── Transactions.jsx    # Full table with filters & CRUD
-│   └── Insights.jsx        # Analytics & spending patterns
-├── App.jsx                 # Root layout + routing
-├── main.jsx                # Entry point
-└── index.css               # Global styles & design system
+│   ├── Dashboard.jsx       
+│   ├── Transactions.jsx    
+│   └── Insights.jsx        
+├── App.jsx                 
+├── main.jsx                
+└── index.css               
 ```
 
 ---
