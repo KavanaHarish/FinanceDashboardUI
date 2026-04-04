@@ -155,7 +155,7 @@ export default function Dashboard() {
         <p className="page-subtitle">Your financial overview at a glance</p>
       </div>
 
-      {/* Summary Cards */}
+      
       <div className="summary-grid">
         <div className="summary-card gold">
           <div className="card-top">
@@ -191,7 +191,7 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* Charts */}
+      
       <div className="charts-grid">
         <div className="glass-card">
           <div className="chart-header">
@@ -215,7 +215,7 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* Recent Transactions */}
+      
       <div className="glass-card">
         <div className="chart-header">
           <div>

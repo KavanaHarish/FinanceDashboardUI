@@ -77,6 +77,8 @@ npm run build
 npm run preview
 ```
 
+## 🌐 Live Demo
+👉 https://finance-dashboard-3520sllga-kavanaharishs-projects.vercel.app/
 ---
 
 ## 📁 Project Structure

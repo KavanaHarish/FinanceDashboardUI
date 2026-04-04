@@ -11,7 +11,7 @@ export default function Insights() {
   const expenses = transactions.filter(t => t.type === "expense");
   const incomes = transactions.filter(t => t.type === "income");
 
-  // Category breakdown
+  
   const categoryMap = useMemo(() => {
     const m = {};
     expenses.forEach(t => { m[t.category] = (m[t.category] || 0) + t.amount; });
@@ -24,7 +24,7 @@ export default function Insights() {
   const avgTx = expenses.length ? totalExpenses / expenses.length : 0;
   const savingsRate = totalIncome > 0 ? ((totalIncome - totalExpenses) / totalIncome * 100) : 0;
 
-  // Monthly breakdown
+  
   const monthlyData = useMemo(() => {
     const months = {};
     transactions.forEach(t => {
@@ -42,7 +42,7 @@ export default function Insights() {
 
   const maxMonthlyVal = Math.max(...monthlyData.flatMap(m => [m.income, m.expense]));
 
-  // Current vs prev month
+  
   const currentMonth = monthlyData[monthlyData.length - 1];
   const prevMonth = monthlyData[monthlyData.length - 2];
   const monthChange = currentMonth && prevMonth
@@ -56,7 +56,7 @@ export default function Insights() {
         <p className="page-subtitle">Patterns and trends in your spending</p>
       </div>
 
-      {/* Key Insight Cards */}
+      
       <div className="insights-grid">
         <div className="insight-card" style={{ borderTop: "2px solid var(--red)" }}>
           <div className="insight-icon">🏆</div>
@@ -109,7 +109,7 @@ export default function Insights() {
         </div>
       </div>
 
-      {/* Monthly Comparison */}
+      
       <div className="glass-card" style={{ marginBottom: 20 }}>
         <div className="chart-header">
           <div>
@@ -153,7 +153,7 @@ export default function Insights() {
         )}
       </div>
 
-      {/* Category Deep Dive */}
+      
       <div className="glass-card">
         <div className="chart-header">
           <div>

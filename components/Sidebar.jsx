@@ -46,7 +46,7 @@ export default function Sidebar({ activePage, setActivePage }) {
       padding: "0",
       zIndex: 100,
     }}>
-      {/* Logo */}
+      
       <div style={{ padding: "26px 24px 20px", borderBottom: "1px solid var(--border-subtle)" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
           <div style={{
@@ -65,7 +65,7 @@ export default function Sidebar({ activePage, setActivePage }) {
         </div>
       </div>
 
-      {/* Navigation */}
+      
       <nav style={{ flex: 1, padding: "16px 12px" }}>
         <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: "1.5px", color: "var(--text-muted)", padding: "0 10px", marginBottom: 8, textTransform: "uppercase" }}>Menu</div>
         {NAV_ITEMS.map(item => {
@@ -103,7 +103,7 @@ export default function Sidebar({ activePage, setActivePage }) {
         })}
       </nav>
 
-      {/* Role Switcher */}
+      
       <div style={{
         margin: "0 12px 16px",
         background: "var(--bg-card)",
@@ -142,7 +142,7 @@ export default function Sidebar({ activePage, setActivePage }) {
         </div>
       </div>
 
-      {/* User Badge */}
+      
       <div style={{
         padding: "14px 16px",
         borderTop: "1px solid var(--border-subtle)",

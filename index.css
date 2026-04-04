@@ -48,18 +48,18 @@ h1, h2, h3, h4, h5 {
   font-weight: 600;
 }
 
-/* Scrollbar */
+
 ::-webkit-scrollbar { width: 4px; height: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border-medium); border-radius: 4px; }
 
-/* App Shell */
+
 .app-shell {
   display: flex;
   min-height: 100vh;
 }
 
-/* Main Content */
+
 .main-content {
   flex: 1;
   margin-left: var(--sidebar-w);
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Page Header */
+
 .page-header {
   margin-bottom: 32px;
 }
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5 {
   margin-top: 4px;
 }
 
-/* Cards */
+
 .glass-card {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5 {
   background: var(--bg-card-hover);
 }
 
-/* Summary Cards Grid */
+
 .summary-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5 {
 .summary-card:nth-child(3) { animation-delay: 0.15s; }
 .summary-card:nth-child(4) { animation-delay: 0.2s; }
 
-/* Charts Grid */
+
 .charts-grid {
   display: grid;
   grid-template-columns: 1.6fr 1fr;
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 28px;
 }
 
-/* Chart Containers */
+
 .chart-header {
   display: flex;
   justify-content: space-between;
@@ -214,13 +214,13 @@ h1, h2, h3, h4, h5 {
   margin-top: 2px;
 }
 
-/* SVG Charts */
+
 .chart-wrapper {
   width: 100%;
   overflow: hidden;
 }
 
-/* Donut Legend */
+
 .donut-legend {
   display: flex;
   flex-direction: column;
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5 {
   color: var(--text-primary);
 }
 
-/* Transactions */
+
 .transactions-table {
   width: 100%;
   border-collapse: collapse;
@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5 {
   color: var(--red);
 }
 
-/* Filters Bar */
+
 .filters-bar {
   display: flex;
   gap: 12px;
@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5 {
 }
 .filter-select:focus { border-color: var(--gold); color: var(--text-primary); }
 
-/* Insights */
+
 .insights-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));

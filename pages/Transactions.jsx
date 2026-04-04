@@ -124,7 +124,7 @@ export default function Transactions() {
         )}
       </div>
 
-      {/* Filters */}
+      
       <div className="glass-card" style={{ marginBottom: 20, padding: "16px 20px" }}>
         <div className="filters-bar" style={{ marginBottom: 0 }}>
           <div className="search-wrapper">
@@ -159,7 +159,7 @@ export default function Transactions() {
         </div>
       </div>
 
-      {/* Table */}
+      
       <div className="glass-card" style={{ padding: 0, overflow: "hidden" }}>
         {filtered.length === 0 ? (
           <div className="empty-state">
@@ -229,7 +229,7 @@ export default function Transactions() {
         )}
       </div>
 
-      {/* Summary Row */}
+      
       <div style={{ display: "flex", gap: 16, marginTop: 16 }}>
         {[
           { label: "Showing", value: `${filtered.length} transactions`, color: "var(--text-secondary)" },
