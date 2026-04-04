@@ -580,3 +580,7 @@ h1, h2, h3, h4, h5 {
   .filters-bar { flex-direction: column; align-items: stretch; }
   .search-input { width: 100%; }
 }
+
+.main-content {
+  animation: fadeIn 0.5s ease;  /* increase from 0.4s */
+}
